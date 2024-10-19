@@ -1,0 +1,213 @@
+body{
+    background-color: grey;
+}
+
+.parent{
+    display: grid;
+    grid-template-rows: auto auto 1fr 1fr  ;
+    grid-template-columns: 1fr ;
+    height: 100vh;
+}
+
+.fheader{
+    background-color: black ;
+    text-align: center;
+    color: aquamarine;
+    padding: 30px;
+    grid-column: 1/5;
+}
+
+.imgg{
+    float: right;
+    width: 300px;
+   
+    
+}
+
+
+.info{
+    
+    background-color: black;
+    color: grey;
+    padding: 20px;
+  font-size: larger;
+  line-height: 1.5;
+  border: 3px solid white;
+
+  grid-column: 1/5;
+}
+
+.project{
+    margin-top: 15px;
+   background-color: black;
+   color: grey;
+   
+  padding: 20px;
+ font-size: larger;
+ line-height: 1.5; 
+ border: 3px solid white;
+ 
+ grid-column: 1/4;
+}
+.foot{
+
+margin-top: 15px;
+   background-color: black;
+   color: grey;
+
+  padding: 20px;
+ font-size: larger;
+ line-height: 1.5; 
+ border: 3px solid white;
+ grid-column: 1/5;
+}
+
+.h22 {
+    
+    color: aquamarine;
+    
+}
+
+    .pp{
+        
+        color: grey;
+    }
+
+.degree{
+    font-size: xx-large;
+    text-align: center;
+
+}
+
+.dimg{
+margin-left: 35% ;
+}
+.cimg{
+    margin-left: 35% ;
+    width: 400px;
+    height: auto;
+    }
+
+
+.links{
+    text-decoration: none;
+}
+
+
+.js{
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    display: block;
+    border: 5px solid grey ;
+    padding: 15px;
+}
+
+.vsec{
+    background-color: black;
+    color: aqua;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    border: 5px solid white ;
+    padding: 15px;
+    margin-top: 20px;
+    
+}
+
+.fsec{
+    background-color: black;
+    color: aqua;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    border: 5px solid grey ;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.icon {
+   
+    width: 100px;
+    height: 100px;
+}
+
+.wicon {
+    
+    width: 75px;
+    height: 75px;
+}
+
+.caption {
+    
+    color: aquamarine;
+    text-align: center;
+    
+}
+.table{
+    background-color: black;
+    color: gray;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 100%;
+    border: 1px solid white;
+   
+}
+.cell{
+    padding: 10px;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+.imgcell{
+   width: 200px;
+   height: auto;
+  
+}
+.qcell{
+    width: 250px;
+    height: 200px;
+}
+
+@media screen and (max-width:1200px) {
+    .imgg{
+        
+        width: 250px; 
+    }
+        .dimg{
+            width: 400px;
+            }
+            .cimg{
+                width: 400px;
+                }
+               
+        
+    
+}
+@media screen and (max-width:768px) {
+    .imgg{
+        
+        width: 250px;
+    }
+    .dimg{
+        width: 250px;
+        }
+        .cimg{
+            width: 250px;
+            }
+           
+}
+@media screen and (max-width:375px) {
+    .imgg{
+        
+        width: 250px;
+    }
+    .dimg{
+        width: 250px;
+        }
+        .cimg{
+            width: 250px;
+            }
+            
+}
